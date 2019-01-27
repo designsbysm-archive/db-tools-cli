@@ -1,0 +1,25 @@
+{
+  "name": "@designsbysm/dbtools-cli",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "Node.js", "ReasonML"
+  ],
+  "author": "Scott A. Matthews",
+  "license": "MPL-2.0",
+  "bin": {
+    "dbtools": "./src/index.js"
+  },
+  "dependencies": {
+    "@glennsl/bs-json": "^3.0.0",
+    "shelljs": "^0.8.3",
+    "yargs": "^12.0.5"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.18"
+  },
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "build": "bsb -make-world"
+  }
+}

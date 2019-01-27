@@ -1,1 +1,1 @@
-# dbTools
+# dbTools CLI
