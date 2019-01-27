@@ -3,9 +3,13 @@
   "version": "0.0.1",
   "description": "",
   "keywords": [
-    "Node.js", "ReasonML"
+    "node", "reasonml", "cli"
   ],
-  "author": "Scott A. Matthews <scott@designsbysm.com> (https://designsbysm.com/)",
+  "author": {
+    "name": "Scott A. Matthews",
+    "email": "scott@designsbysm.com",
+    "url": "https://designsbysm.com/"
+  },
   "license": "GPL-3.0",
   "main": "./src/index.js",
   "bin": {
