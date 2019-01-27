@@ -5,8 +5,9 @@
   "keywords": [
     "Node.js", "ReasonML"
   ],
-  "author": "Scott A. Matthews",
-  "license": "MPL-2.0",
+  "author": "Scott A. Matthews <scott@designsbysm.com> (https://designsbysm.com/)",
+  "license": "GPL-3.0",
+  "main": "./src/index.js",
   "bin": {
     "dbtools": "./src/index.js"
   },
@@ -19,7 +20,10 @@
     "bs-platform": "^4.0.18"
   },
   "scripts": {
-    "start": "bsb -make-world -w",
-    "build": "bsb -make-world"
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "prestart": "npm run build",
+    "start": "node src/Main.bs.js",
+    "watch": "bsb -make-world -w"
   }
 }
